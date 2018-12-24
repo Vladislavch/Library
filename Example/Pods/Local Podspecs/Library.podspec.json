@@ -1,0 +1,22 @@
+{
+  "name": "Library",
+  "version": "0.1.0",
+  "summary": "A short description of Library.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Vladislavch/Library",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Vladislavch": "vyemets@cogniance.com"
+  },
+  "source": {
+    "git": "https://github.com/Vladislavch/Library.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "Library/Classes/**/*"
+}
