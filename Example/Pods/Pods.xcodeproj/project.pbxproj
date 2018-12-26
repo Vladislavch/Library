@@ -17,6 +17,7 @@
 		D7F53C6575A96B3319B6BDCD43F74210 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		D9B332963D69677B44A8962287E5AB41 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1DDCE640FD565C3EE86F8F8C7EB1145 /* ReplaceMe.swift */; };
 		E2CA433021D149AD005C7979 /* LibraryFile2.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CA432F21D149AD005C7979 /* LibraryFile2.swift */; };
+		E2CA437621D390D6005C7979 /* LibraryFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CA437521D390D5005C7979 /* LibraryFile.swift */; };
 		F31CFA620E1FD502C1E573A399E55216 /* Library-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A924553984EA749BC7DAFCE38EFC027 /* Library-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -70,6 +71,7 @@
 		D5D12F58F03E19D6E9CDCFEB4D864EDD /* Pods-Library_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Library_Example-frameworks.sh"; sourceTree = "<group>"; };
 		D7E9B8D01E034C9A7134916969DE999D /* Pods-Library_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Library_Example.release.xcconfig"; sourceTree = "<group>"; };
 		E2CA432F21D149AD005C7979 /* LibraryFile2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LibraryFile2.swift; path = Library/Classes/LibraryFile2.swift; sourceTree = "<group>"; };
+		E2CA437521D390D5005C7979 /* LibraryFile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LibraryFile.swift; path = Library/Classes/LibraryFile.swift; sourceTree = "<group>"; };
 		EA4A58CE31061A44227E004D5F1D00AD /* Pods-Library_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Library_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -173,6 +175,7 @@
 			isa = PBXGroup;
 			children = (
 				C1DDCE640FD565C3EE86F8F8C7EB1145 /* ReplaceMe.swift */,
+				E2CA437521D390D5005C7979 /* LibraryFile.swift */,
 				E2CA432F21D149AD005C7979 /* LibraryFile2.swift */,
 				F335F6D07F8762A39C2C02CC4CB22125 /* Pod */,
 				78DCE051CDE9F1CD281D5AD9A1FD19C4 /* Support Files */,
@@ -368,6 +371,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E2CA433021D149AD005C7979 /* LibraryFile2.swift in Sources */,
+				E2CA437621D390D6005C7979 /* LibraryFile.swift in Sources */,
 				08A67D13E2951A40464ECDBEB389B4B2 /* Library-dummy.m in Sources */,
 				D9B332963D69677B44A8962287E5AB41 /* ReplaceMe.swift in Sources */,
 			);

@@ -15,7 +15,6 @@
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
-		E2CA432E21D147D3005C7979 /* LibraryFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CA432D21D147D3005C7979 /* LibraryFile.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,7 +45,6 @@
 		73AA0E1B2E45E20CE92E4EDB /* Pods-Library_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Library_Tests.debug.xcconfig"; path = "Target Support Files/Pods-Library_Tests/Pods-Library_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		81A2C4D94BF66D8983B30AF4 /* Pods-Library_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Library_Example.release.xcconfig"; path = "Target Support Files/Pods-Library_Example/Pods-Library_Example.release.xcconfig"; sourceTree = "<group>"; };
 		A5956E766CE04DE0067590F5 /* Pods-Library_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Library_Example.debug.xcconfig"; path = "Target Support Files/Pods-Library_Example/Pods-Library_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		E2CA432D21D147D3005C7979 /* LibraryFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LibraryFile.swift; path = ../../Library/Classes/LibraryFile.swift; sourceTree = "<group>"; };
 		E428F259752CF3F2357F0675 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		F83AA6553232381E9F84C31D /* Pods_Library_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Library_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -85,7 +83,6 @@
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
-				E2CA432C21D147B1005C7979 /* Library */,
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
 				607FACD21AFB9204008FA782 /* Example for Library */,
 				607FACE81AFB9204008FA782 /* Tests */,
@@ -160,15 +157,6 @@
 				0CD5570ADBB1D756CD995FD4 /* Pods_Library_Tests.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		E2CA432C21D147B1005C7979 /* Library */ = {
-			isa = PBXGroup;
-			children = (
-				E2CA432D21D147D3005C7979 /* LibraryFile.swift */,
-			);
-			name = Library;
-			path = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -347,7 +335,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
-				E2CA432E21D147D3005C7979 /* LibraryFile.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

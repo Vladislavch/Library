@@ -5,11 +5,11 @@ public class SomeClass {
         
     }
     
-    func doSomething() {
+    public func doSomething() {
         
     }
     
-    func doSomething2() {
+    public func doSomething2() {
         
     }
     
